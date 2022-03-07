@@ -1,22 +1,20 @@
-#include <sys/types.h>
-#include <unistd.h>
-#include <stdio.h>
+#include <iostream>
+#include <fstream>
 
-main()
+using namespace std;
+
+int main(int argc, char **argv)
 {
-    int process_id;
+    cout << "This program has " << argc << " arguments:" << endl;
+    for (int i = 0; i < argc; ++i)
+    {
+        cout << argv[i] << endl;
 
-    printf("Howdy\n");
-    process_id = fork();
-    fork();
-    if (process_id == -1)
-    {
-        perror("error creating process using fork");
-        exit();
+        ifstream infile;
+        infile.open(argv[i]);
+
+        
     }
-    if (process_id == 0)
-    {
-        printf("I am the child process.\n");
-    }
+
+    return 0;
 }
-
