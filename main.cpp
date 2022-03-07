@@ -33,8 +33,8 @@ int main(int argc, char **argv)
     wFile.close();
     cout << endl;
 
-    int matrix;
-    string words;
+    int matrix[k][k];
+    string words[wCount];
     cout << "k: " << k << endl;
     cout << "Total number of words: " << wCount << endl;
 
