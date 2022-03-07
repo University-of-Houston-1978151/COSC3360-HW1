@@ -1,4 +1,2 @@
 mango
-orange
-pineapple
-pizza
+Orange
