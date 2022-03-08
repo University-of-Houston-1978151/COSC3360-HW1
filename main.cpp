@@ -72,5 +72,7 @@ int main(int argc, char **argv)
     cout << "Total number of words: " << wCount << endl;
     cout << endl;
 
+    // im so lost...
+
     return 0;
 }
