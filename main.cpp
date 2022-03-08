@@ -1,6 +1,9 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <stdio.h>
+#include <sys/types.h>
+#include <unistd.h>
 
 using namespace std;
 
